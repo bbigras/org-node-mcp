@@ -1,0 +1,8 @@
+.aider*
+.env
+/.python-version
+/__pycache__/
+/logs/
+/org_node_mcp.egg-info/
+/test/__pycache__/
+/nodes/

@@ -1,0 +1,24 @@
+#+title: Multi Node Test File
+
+* Node A
+:PROPERTIES:
+:ID:       node-a-id
+:END:
+
+This is the content of Node A.
+
+* Node B
+:PROPERTIES:
+:ID:       node-b-id
+:END:
+
+This is the content of Node B. It might mention [[id:node-a-id][Node A]].
+
+* Node C (Child of B)
+:PROPERTIES:
+:ID:       node-c-id
+:END:
+
+Content for Node C.
+
+# EOF
