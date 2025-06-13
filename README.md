@@ -48,7 +48,7 @@ uv venv
 source .venv/bin/activate
 
 # Install dependencies
-uv install pytest pytest-asyncio aiofiles
+uv add pytest pytest-asyncio aiofiles
 
 # Install the package in development mode
 pip install -e .
